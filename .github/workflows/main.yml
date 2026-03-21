@@ -11,6 +11,7 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting
+          # แก้บรรทัดนี้ โดยเปลี่ยน your-project-id เป็น ID ของคุณ
+          args: deploy --only hosting --project kalima-83ef8
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
