@@ -11,7 +11,7 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          # ระบุแค่คำสั่ง deploy และชื่อโปรเจกต์ให้เป๊ะ
+          # ใช้คำสั่งนี้เพื่อบังคับเป้าหมายให้ชัดเจน
           args: deploy --only hosting --project kalima-83ef8
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
