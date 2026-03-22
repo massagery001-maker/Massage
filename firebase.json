@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "Massage",
     "public": ".",
     "ignore": [
       "firebase.json",
