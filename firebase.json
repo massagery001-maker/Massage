@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "kalima-83ef8",
     "public": ".",
     "ignore": [
       "firebase.json",
